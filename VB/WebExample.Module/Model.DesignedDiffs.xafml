@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="WebExample" Logo="ExpressAppLogo">
+  <NavigationItems>
+    <Items>
+      <Item Id="Tree" Caption="Tree" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="HCategory" ViewId="HCategory_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="11.1.8.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="HCategory_ListView" AllowEdit="True" />
+  </Views>
+</Application>
